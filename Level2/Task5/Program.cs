@@ -47,4 +47,4 @@ int a = ReadData("Введите число 1: ");
 string mathOperator = ReadMathOperator("Введите мат. знак: ");
 int b = ReadData("Введите число 2: ");
 double result = CalculateData(a, b, mathOperator);
-Printdata($"Результат: {result}");
+Printdata($"Результат: {Math.Round(result, 2)}");
